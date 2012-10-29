@@ -376,8 +376,8 @@ Class VirtualCurrencyProtocolImplementation
         // Code example
 
         // If you don't use v2, v3, use the string below
-        //$sql = 'SELECT count(1) as cnt FROM '.$this->_xsollaConfig->dbCharactersTable.' WHERE v1 = ' . addslashes($_GET['v1']);
-        $sql = 'SELECT count(1) as cnt FROM '.$this->_xsollaConfig->dbCharactersTable.' WHERE v1 = ' . addslashes($_GET['v1']) . ' AND v2 = ' . addslashes($_GET['v2']) . ' AND v3 = ' . addslashes($_GET['v3']);
+        //$sql = 'SELECT count(1) as cnt FROM '.$this->_xsollaConfig->dbCharactersTable.' WHERE v1 = ' . mysql_real_escape_string($_GET['v1']);
+        $sql = 'SELECT count(1) as cnt FROM '.$this->_xsollaConfig->dbCharactersTable.' WHERE v1 = ' . mysql_real_escape_string($_GET['v1']) . ' AND v2 = ' . mysql_real_escape_string($_GET['v2']) . ' AND v3 = ' . mysql_real_escape_string($_GET['v3']);
         // performing query
         $result = mysql_query($sql, $this->_connect);
         // getting result
@@ -395,7 +395,7 @@ Class VirtualCurrencyProtocolImplementation
         // Code example
         
         // Looking for payment with such id
-        $sql = 'SELECT `id` FROM '.$this->_xsollaConfig->dbPaymentsTable.' WHERE `invoice` = ' . $_GET['id'];
+        $sql = 'SELECT `id` FROM '.$this->_xsollaConfig->dbPaymentsTable.' WHERE `invoice` = ' . mysql_real_escape_string($_GET['id']);
         // performing query
         $result = mysql_query ($sql, $this->_connect);
         // getting result
@@ -404,8 +404,8 @@ Class VirtualCurrencyProtocolImplementation
         if (!$exist['id'])
         {
             // If you don't use v2, v3, use the string below
-            //$sql = 'INSERT INTO `'.$this->_xsollaConfig->dbPaymentsTable.'` (`v1`, `amount`, `invoice`, `date_add`, `canceled`) VALUES ('. $_GET['v1'] . ', ' . $_GET['sum'] . ', ' . $_GET['id'] . ', NOW(), "0")';
-            $sql = 'INSERT INTO `'.$this->_xsollaConfig->dbPaymentsTable.'` (`v1`, `v2`, `v3`, `amount`, `invoice`, `date_add`, `canceled`) VALUES ('. $_GET['v1'] . ', ' . $_GET['v2'] . ', ' . $_GET['v3'] . ', ' . $_GET['sum'] . ', ' . $_GET['id'] . ', NOW(), "0")';
+            //$sql = 'INSERT INTO `'.$this->_xsollaConfig->dbPaymentsTable.'` (`v1`, `amount`, `invoice`, `date_add`, `canceled`) VALUES ('. mysql_real_escape_string($_GET['v1']) . ', ' . mysql_real_escape_string($_GET['sum']) . ', ' . mysql_real_escape_string($_GET['id']) . ', NOW(), "0")';
+            $sql = 'INSERT INTO `'.$this->_xsollaConfig->dbPaymentsTable.'` (`v1`, `v2`, `v3`, `amount`, `invoice`, `date_add`, `canceled`) VALUES ('. mysql_real_escape_string($_GET['v1']) . ', ' . mysql_real_escape_string($_GET['v2']) . ', ' . $_GET['v3'] . ', ' . mysql_real_escape_string($_GET['sum']) . ', ' . mysql_real_escape_string($_GET['id']) . ', NOW(), "0")';
             // performing query
             $result = mysql_query ($sql, $this->_connect);
             // if insert successful
@@ -429,7 +429,7 @@ Class VirtualCurrencyProtocolImplementation
         // Code example
         
         // Canceling payment
-        $sql = 'UPDATE `'.$this->_xsollaConfig->dbPaymentsTable.'` SET `canceled` = "1", `date_cancel` = NOW() WHERE `invoice` = '. $_GET['id'];
+        $sql = 'UPDATE `'.$this->_xsollaConfig->dbPaymentsTable.'` SET `canceled` = "1", `date_cancel` = NOW() WHERE `invoice` = '. mysql_real_escape_string($_GET['id']);
         // performing query
         $result = mysql_query($sql, $this->_connect);
         // if query successful
