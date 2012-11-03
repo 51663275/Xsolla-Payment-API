@@ -1,5 +1,5 @@
 <?php
-require_once 'inc/config.php';
+require_once 'config.php';
 abstract class VirtualCurrency {
 	private $db; 	 //for our pdo object
 	private $params; //array of required parameters
