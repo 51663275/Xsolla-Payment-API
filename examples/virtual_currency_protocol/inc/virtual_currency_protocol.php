@@ -103,7 +103,6 @@ abstract class VirtualCurrency {
 	}
 
 	protected function validHash() {
-		return true;
 		$invoiceID = isset($_GET['id']) ? $_GET['id'] : '';
 		return md5($_GET['command'].$_GET['v1'].$invoiceID.SECRET_KEY) == $_GET['md5'];
 	}
