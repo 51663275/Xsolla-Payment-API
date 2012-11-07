@@ -46,7 +46,7 @@ class VirtualCurrencyExample extends VirtualCurrency {
 	}
 }
 
-$example = new VirtualCurrencyExample();//var_dump(get_class_methods('VirtualCurrencyExample'));exit;
+$example = new VirtualCurrencyExample();
 $example->process();
 
 ?>
