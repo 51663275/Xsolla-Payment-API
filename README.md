@@ -32,7 +32,7 @@ Implementing Xsolla's Virtual Currency Protocol is as easy as editing the includ
 * **cancelInvoice($invoiceID)**
     * this method deletes an invoice from your database
 
-if you have questions about how to implement these methods please see the included [example.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php "example.php")example.php which utilizes the database structure found in [example.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql "example.sql")example.sql
+if you have questions about how to implement these methods please see the included [example.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php "example.php") which utilizes the database structure found in [example.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql "example.sql")example.sql
 
 
 ## Cash Protocol ##
