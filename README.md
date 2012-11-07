@@ -23,16 +23,12 @@ Implementing Xsolla's Virtual Currency Protocol is as easy as editing the includ
 
 * **setupDB()**
     * this method is responsible for configuring a connection to your database by instantiating a PDO object
-
 * **userExists($user)**
     * this method checks the database for a user and returns a boolean true if found or false otherwise
-
 * **invoiceExists($invoiceID)**
     * this method checks the database for the existence of an invoice and returns boolean true if found or false otherwise
-
 * **newInvoice($invoiceID, $userID, $sum)**
     * this method inserts a new invoice into your database 
-
 * **cancelInvoice($invoiceID)**
     * this method deletes an invoice from your database
 
