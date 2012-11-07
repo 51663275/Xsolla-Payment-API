@@ -7,10 +7,10 @@ Xsolla Payment API
 
 1. [Register](https://account.xsolla.com/index.php?a=registrationForm "Account registration") your account
 2. Read our API
-   * [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Virtual_Currency_API_Guide.pdf, "Virtual Currency Protocol API Guide")
-   * [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Cash_API_Guide.pdf, "Cash Protocol API Guide")
-3. [Add a new project](http://bit.ly/QIRZtd, "Add project") to your account
-4. Read [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayBar_Integration_Guide_en.pdf, "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayStation_Integration_Guide.pdf, "PayStation Integration Guide") guides and implement one of these tools
+   * [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Virtual_Currency_API_Guide.pdf "Virtual Currency Protocol API Guide")
+   * [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Cash_API_Guide.pdf "Cash Protocol API Guide")
+3. [Add a new project](http://bit.ly/QIRZtd "Add project") to your account
+4. Read [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayBar_Integration_Guide_en.pdf "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayStation_Integration_Guide.pdf "PayStation Integration Guide") guides and implement one of these tools
 5. Test and go live.
 
 
@@ -19,7 +19,7 @@ Xsolla Payment API
 Xsolla's Virtual Currency Protocol allows the exchange of real currency into virtual currency with a preset exchange rate. The Virtual Currency Protocol is an easy and accessible solution for those projects which have in-game virtual currency with a predetermined value. Users get a preset amount of virtual currency when they replenish their accounts in-game. Players can make payments from e-wallets, cash kiosks, mobile, online-banking, etc.
 
 #### Implementing Virtual Currency Protocol ####
-Implementing Xsolla's Virtual Currency Protocol is as easy as editing the included [config.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/inc/config.php, "config.php") to include your database information and secret key. Simply extend the included VirtualCurrency class found in [VirtualCurrency.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/inc/virtual_currency_protocol.php, "VirtualCurrency.php") and implement the following methods for database handling:
+Implementing Xsolla's Virtual Currency Protocol is as easy as editing the included [config.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/inc/config.php "config.php") to include your database information and secret key. Simply extend the included VirtualCurrency class found in [VirtualCurrency.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/inc/virtual_currency_protocol.php "VirtualCurrency.php") and implement the following methods for database handling:
 
 * **setupDB()**
     * this method is responsible for configuring a connection to your database by instantiating a PDO object
@@ -32,17 +32,17 @@ Implementing Xsolla's Virtual Currency Protocol is as easy as editing the includ
 * **cancelInvoice($invoiceID)**
     * this method deletes an invoice from your database
 
-if you have questions about how to implement these methods please see the included [example.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php, "example.php")example.php which utilizes the database structure found in [example.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql, "example.sql")example.sql
+if you have questions about how to implement these methods please see the included [example.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php "example.php")example.php which utilizes the database structure found in [example.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql "example.sql")example.sql
 
 
 ## Cash Protocol ##
 Xsolla's Cash Protocol enables game projects to sell packs of virtual goods and services. When using this protocol, an order is made on the side of the game project. 
 
 
-*For additional information about protocols, please visit [http://xsolla.com/docs/section/protocols](http://xsolla.com/docs/section/protocols, "More about protocols")*
+*For additional information about protocols, please visit [http://xsolla.com/docs/section/protocols](http://xsolla.com/docs/section/protocols "More about protocols")*
 
 ## Additional resources ##
-*If you need any help please contact our support at [http://support.xsolla.com/](http://support.xsolla.com/, "Support website")
+*If you need any help please contact our support at [http://support.xsolla.com/](http://support.xsolla.com/ "Support website")
 They will transfer you to one of available integration managers.*
 
 **-Xsolla Team**
