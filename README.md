@@ -1,7 +1,9 @@
 ![](http://xsolla.com/img/xsolla-logo2.png)
+Xsolla Payment API
+===
 
-Please follow these easy steps:
-===============================
+## Please follow these easy steps: ##
+
 
 1. [Register](https://account.xsolla.com/index.php?a=registrationForm "Account registration") your account
 2. Read our API
@@ -11,7 +13,6 @@ Please follow these easy steps:
 4. Read [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayBar_Integration_Guide_en.pdf, "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayStation_Integration_Guide.pdf, "PayStation Integration Guide") guides and implement one of these tools
 5. Test and go live.
 
----
 
 ## Virtual Currency Protocol ##
 
@@ -37,16 +38,14 @@ Implementing Xsolla's Virtual Currency Protocol is as easy as editing the includ
 
 if you have questions about how to implement these methods please see the included [example.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php, "example.php")example.php which utilizes the database structure found in [example.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql, "example.sql")example.sql
 
----
 
 ## Cash Protocol ##
 Xsolla's Cash Protocol enables game projects to sell packs of virtual goods and services. When using this protocol, an order is made on the side of the game project. 
 
----
 
 *For additional information about protocols, please visit [http://xsolla.com/docs/section/protocols](http://xsolla.com/docs/section/protocols, "More about protocols")*
 
----
+## Additional resources ##
 *If you need any help please contact our support at [http://support.xsolla.com/](http://support.xsolla.com/, "Support website")
 They will transfer you to one of available integration managers.*
 
