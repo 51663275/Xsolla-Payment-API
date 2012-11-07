@@ -10,7 +10,7 @@ Xsolla Payment API
    * [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Virtual_Currency_API_Guide.pdf "Virtual Currency Protocol API Guide")
    * [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Cash_API_Guide.pdf "Cash Protocol API Guide")
 3. [Add a new project](http://bit.ly/QIRZtd "Add project") to your account
-4. Read [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayBar_Integration_Guide_en.pdf "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayStation_Integration_Guide.pdf "PayStation Integration Guide") guides and implement one of these tools. If you would like to customize it, here is the [template files](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Paystation_template.zip "Paystation template files").
+4. Read [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayBar_Integration_Guide_en.pdf "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayStation_Integration_Guide.pdf "PayStation Integration Guide") guides and implement one of these tools. In case you would like to customize it, here is the [template files](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Paystation_template.zip "Paystation template files").
 5. Test and go live.
 
 
