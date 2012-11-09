@@ -1,6 +1,6 @@
 ![](http://xsolla.com/img/xsolla-logo2.png)
 
-Xsolla Payment API
+## Xsolla Payment API ##
 
 ===
 
