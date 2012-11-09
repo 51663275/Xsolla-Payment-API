@@ -42,6 +42,6 @@ Xsolla's Cash Protocol enables game projects to sell packs of virtual goods and 
 *For additional information about protocols, please visit [http://xsolla.com/docs/section/protocols](http://xsolla.com/docs/section/protocols "More about protocols")*
 
 ## Additional resources ##
-*If you need any help please [contact us](mailto: a.menshikov@xsolla.com "Integration manager")*
+*If you need any help please [contact us](mailto: a.menshikov@xsolla.com "Integration manager").*
 
 **-Xsolla Team** 
