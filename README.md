@@ -1,7 +1,7 @@
 ![](http://xsolla.com/img/xsolla-logo2.png)
+
 Xsolla Payment API
 
-HI
 ===
 
 ## Please follow these easy steps: ##
