@@ -7,10 +7,10 @@ Xsolla Payment API in Chinese
 
 1. [註冊](https://account.xsolla.com/index.php?a=registrationForm "帳號註冊") 您的帳戶
 2. 請閱讀我們的API
-   * [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Virtual_Currency_API_Guide.pdf "Virtual Currency Protocol API Guide")
-   * [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Cash_API_Guide.pdf "Cash Protocol API Guide")
+   * [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_Virtual_Currency_API_Guide_Chinese.pdf "Virtual Currency Protocol API Guide")
+   * [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_Cash_API_Guide_Chinese.pdf "Cash Protocol API Guide")
 3. [添加一個新的項目](https://account.xsolla.com/index.php?a=projects&ext=drawfrmnewproject "添加項目") 您的帳戶
-4. 閱讀 [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayBar_Integration_Guide_en.pdf "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayStation_Integration_Guide.pdf "PayStation Integration Guide") 導遊和實施這些工具之. 如果你想自定義這裡是 [模板文件](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Paystation_template.zip "Paystation template files").
+4. 閱讀 [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_PayBar_Integration_Guide_Chinese.pdf "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_PayStation_Integration_Guide_Chinese.pdf "PayStation Integration Guide") 導遊和實施這些工具之. 如果你想自定義這裡是 [模板文件](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Paystation_template.zip "Paystation template files").
 5. 測試和去住.
 
 
