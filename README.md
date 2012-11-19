@@ -8,7 +8,7 @@
 
 
 1. [Register](https://account.xsolla.com/index.php?a=registrationForm "Account registration") your account
-2. Read our API
+2. Read our API [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/wiki/Virtual-Currency-API-Guide "Virtual Currency API Wiki") and [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/wiki/Cash-API-Guide "Cash Protocol API Wiki") or just print it:
    * [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Virtual_Currency_API_Guide.pdf "Virtual Currency Protocol API Guide")
    * [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_Cash_API_Guide.pdf "Cash Protocol API Guide")
 3. [Add a new project](https://account.xsolla.com/index.php?a=projects&ext=drawfrmnewproject "Add project") to your account
