@@ -12,7 +12,7 @@
    * [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/korean/Xsolla_Virtual_Currency_API_Guide_Korean.pdf "Virtual Currency 프로토콜 API 가이드")
    * [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/korean/Xsolla_Virtual_Currency_API_Guide_Korean.pdf "Cash 프로토콜 API 가이드")
 3. [신규 프로젝트 추가](https://account.xsolla.com/index.php?a=projects&ext=drawfrmnewproject "프로젝트 추가") 회원님의 계정에 추가됩니다
-4. 참조 [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayBar_Integration_Guide_en.pdf "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Xsolla_PayStation_Integration_Guide.pdf "PayStation 인티그레이션 가이드") 가이드와 다음 도구 중 하나를 만드십시오. 
+4. 참조 [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/korean/Xsolla_PayBar_Integration_Guide_Korean.pdf "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/korean/Xsolla_PayStation_Integration_Guide_Korean.pdf "PayStation 인티그레이션 가이드") 가이드와 다음 도구 중 하나를 만드십시오. 
 커스터마이징을 하기 원하는 경우 다음 템플릿 파일을 참조하세요 [template files](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Paystation_template.zip "Paystation template files").
 5. 테스트와 실행
 
