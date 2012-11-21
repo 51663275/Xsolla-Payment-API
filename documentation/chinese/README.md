@@ -1,47 +1,51 @@
 ![](http://xsolla.com/img/xsolla-logo2.png)
-Xsolla Payment API in Chinese
+
+## Xsolla支付API ##
+
 ===
 
-## 請遵循這些簡單的步驟： ##
+##請按以下步驟操作：##
 
 
-1. [註冊](https://account.xsolla.com/index.php?a=registrationForm "帳號註冊") 您的帳戶
-2. 請閱讀我們的API
-   * [Virtual Currency](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_Virtual_Currency_API_Guide_Chinese.pdf "Virtual Currency Protocol API Guide")
-   * [Cash protocol](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_Cash_API_Guide_Chinese.pdf "Cash Protocol API Guide")
-3. [添加一個新的項目](https://account.xsolla.com/index.php?a=projects&ext=drawfrmnewproject "添加項目") 您的帳戶
-4. 閱讀 [PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_PayBar_Integration_Guide_Chinese.pdf "PayBar Integration Guide") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_PayStation_Integration_Guide_Chinese.pdf "PayStation Integration Guide") 導遊和實施這些工具之. 如果你想自定義這裡是 [模板文件](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Paystation_template.zip "Paystation template files").
-5. 測試和去住.
+1. [註冊](https://account.xsolla.com/index.php?a=registrationForm "帳戶註冊") 帳戶
+2. 閱讀API
+   * [虛擬貨幣](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_Virtual_Currency_API_Guide_Chinese.pdf "虛擬貨幣協定API指南")
+   * [現金協議](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_Cash_API_Guide_Chinese.pdf "現金協定API指南")
+3. [添加新項目](https://account.xsolla.com/index.php?a=projects&ext=drawfrmnewproject "添加項目") 至帳戶
+4. 閱讀[PayBar](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_PayBar_Integration_Guide_Chinese.pdf "PayBar集成指南") / [Paystation](https://github.com/xsolla/Xsolla-Payment-API/blob/master/documentation/chinese/Xsolla_PayStation_Integration_Guide_Chinese.pdf "PayStation集成指南") 指南並實現其中一種工具。
+若想對工具進行定制，參見[範本檔](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Paystation_template.zip "Paystation範本檔").
+5. 測試並上線運行。
 
 
-## Virtual Currency Protocol ##
+##虛擬貨幣協議##
 
-Xsolla's Virtual Currency Protocol 允許交換到虛擬貨幣的真實貨幣與預先設定的匯率。虛擬貨幣協議是一個容易和方便的解決方案，與一個預定值的那些項目，有在遊戲中的虛擬貨幣。用戶預設的金額補充自己的帳戶時，他們在遊戲中的虛擬貨幣。玩家可以從電子錢包，現金亭，手機，網上銀行等支付
+Xsolla的虛擬貨幣協議允許按預先設置的匯率將真實貨幣兌換為虛擬貨幣。對於擁有設有預定值的遊戲內虛擬貨幣的專案而言，虛擬貨幣協議是一種簡單且適用的解決方案。當用戶為其在遊戲中的帳戶充值時，用戶將收到預先設定的虛擬貨幣金額。玩家可通過電子錢包、現金亭、手機、網上銀行等進行支付。
 
-#### 實施 Virtual Currency Protocol ####
-實施 Xsolla's Virtual Currency Protocol 是那麼容易，因為編輯包括 [config.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/inc/config.php "config.php") 包括數據庫信息和秘密密鑰。簡單的擴展包括VirtualCurrency類 [VirtualCurrency.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/inc/virtual_currency_protocol.php "VirtualCurrency.php") 數據庫處理實現以下方法：
+####實施虛擬貨幣協議####
+實施Xsolla的虛擬貨幣協定步驟簡單，只需編輯內含檔[config.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/inc/config.php "配置.php")，使之包含資料庫資訊和金鑰。
+擴展[虛擬貨幣.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/inc/virtual_currency_protocol.php "虛擬貨幣.php")中的內含虛擬貨幣類別並實施以下方法進行資料庫處理：
 
-* **setupDB()**
-    * 這種方法是負責配置連接到您的數據庫實例化一個PDO對象
-* **userExists($user)**
-    * 這個方法檢查一個用戶的數據庫，並返回一個布爾值，如果找到，否則返回
-* **invoiceExists($invoiceID)**
-    * 這個方法檢查數據庫中存在的發票，並返回TRUE，如果找到，否則返回false
-* **newInvoice($invoiceID, $userID, $sum)**
-    * 這種方法插入一個新的發票到你的數據庫
-* **cancelInvoice($invoiceID)**
-    * 這種方法從數據庫中刪除發票
+* **設置DB（）**
+    * 本方法通過例示PDO物件，為資料庫配置連接
+* **用戶存在（$用戶）**
+    * 本方法用來檢查資料庫是否存在使用者，若發現用戶，則返回布林真值，反之返回假值
+* **發票存在（$發票ID）**
+    * 本方法用來檢查資料庫是否存在發票，若發現發票，則返回布林真值，反之返回假值
+* **新發票（$發票ID，$用戶ID，$金額）**
+    * 本方法向資料庫中插入新發票 
+* **取消發票（$發票ID）**
+    * 本方法從資料庫中刪除發票
 
-如果您有任何疑問，有關如何實現這些方法，請參閱隨附的 [example.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php "example.php") 它利用了數據庫結構中找到 [example.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql "example.sql").
-
-
-## Cash Protocol ##
-Xsolla's Cash Protocol 使遊戲項目，以出售虛擬商品和服務包。當使用此協議，作出的命令上側的遊戲項目。 
+若對如何實施以上方法存在任何疑問，請參見內含檔[示例.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php "示例.php")，該檔使用了[示例.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql "示例.sql")中的資料庫結構。
 
 
-*有關協議的更多信息，請訪問 [http://xsolla.com/docs/section/protocols](http://xsolla.com/docs/section/protocols "More about protocols")*
+##現金協議##
+Xsolla的現金協議允許遊戲專案銷售大量虛擬商品和服務。使用本協定時，遊戲專案中形成一個訂單。
 
-## 其他資源 ##
-*如果你需要任何幫助，請 [聯繫我們](mailto: a.menshikov@xsolla.com "Integration manager").*
 
-**-Xsolla Team** 
+*關於協定的更多資訊，請訪問網站[http://xsolla.com/docs/section/protocols](http://xsolla.com/docs/section/protocols "協定更多資訊")*
+
+##其他資源##
+*若需要任何説明，請[聯繫我們](發郵件至：a.menshikov@xsolla.com "集成經理").*
+
+**-Xsolla團隊** 
