@@ -47,5 +47,6 @@ Xsolla的現金協議允許遊戲專案銷售大量虛擬商品和服務。使�
 
 ##其他資源##
 *若需要任何説明，請[聯繫我們](發郵件至：a.menshikov@xsolla.com "集成經理").*
+*如果您发现了一个问题，或者需要创建新的API，请添加您的请求[这里]（https://github.com/xsolla/Xsolla-Payment-API/issues)*
 
 **-Xsolla團隊** 
