@@ -49,3 +49,4 @@ Xsolla's Cash Protocol enables game projects to sell packs of virtual goods and 
 *If you found an issue or need to create new API, please add your request [here](https://github.com/xsolla/Xsolla-Payment-API/issues)*
 
 **-Xsolla Team** 
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/83459fc49878adb201efdb4ec58a5f92 "githalytics.com")](http://githalytics.com/xsolla/Xsolla-Payment-API)
