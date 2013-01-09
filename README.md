@@ -44,10 +44,6 @@ We also have other samples:
 * [Python Sample](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/standart.protocol.implementation_en_python.py)
 * [Ruby Sample](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/standart.protocol.implementation_en_ruby.ruby)
 
-
-
-Please see other examples (ASP, Ruby, Python, C+, etc.) here: https://github.com/xsolla/Xsolla-Payment-API/tree/master/examples/virtual_currency_protocol
-
 ## Cash Protocol ##
 Xsolla's Cash Protocol enables game projects to sell packs of virtual goods and services. When using this protocol, an order is made on the side of the game project. 
 
