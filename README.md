@@ -36,7 +36,7 @@ Implementing Xsolla's Virtual Currency Protocol is as easy as editing the includ
     * this method deletes an invoice from your database
 
 if you have questions about how to implement these methods please see the included [example.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php "example.php") which utilizes the database structure found in [example.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql "example.sql").
-
+Please see other examples (ASP, Ruby, Python, C+, etc.) here: (https://github.com/xsolla/Xsolla-Payment-API/tree/master/examples/virtual_currency_protocol)
 
 ## Cash Protocol ##
 Xsolla's Cash Protocol enables game projects to sell packs of virtual goods and services. When using this protocol, an order is made on the side of the game project. 
