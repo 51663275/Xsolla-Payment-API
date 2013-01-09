@@ -36,7 +36,7 @@ Implementing Xsolla's Virtual Currency Protocol is as easy as editing the includ
     * this method deletes an invoice from your database
 
 if you have questions about how to implement these methods please see the included [example.php](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.php "example.php") which utilizes the database structure found in [example.sql](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/example.sql "example.sql").
-We also have other samples on:
+We also have other samples:
 * [ASP/VB Sample](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/standart.protocol.implementation_en_asp.asp)
 * [ASP.NET/C# Sample](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/standart.protocol.implementation_en_aspx.aspx.cs)
 * [C Sample](https://github.com/xsolla/Xsolla-Payment-API/blob/master/examples/virtual_currency_protocol/standart.protocol.implementation_en_c.c)
