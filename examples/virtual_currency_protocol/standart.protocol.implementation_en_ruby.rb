@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # Virtual Currency Protocol Implementation. Ruby Sample.
 #
 # @version 1.0
