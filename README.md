@@ -16,6 +16,11 @@
 In case you would like to customize it, here is the [template files](https://github.com/xsolla/Xsolla-Payment-API/blob/master/Paystation_template.zip "Paystation template files").
 5. Test and go live.
 
+#Paystation#
+![](https://www.evernote.com/shard/s132/sh/1c148183-aaf8-40e8-8db5-ce41797f06ca/72e98388f44a9d09427a11afbc7e0b46/res/59d278a3-7373-492f-9588-ffd5e7a98547/skitch.png)
+
+#Credit cards form + PayBar#
+![](https://www.evernote.com/shard/s132/sh/137a980a-d1bc-473c-a7dc-442b3d6566ce/3681fd65a158a3a86c42899d91e3cdf6/res/032a8fef-d9dc-447c-b94f-f29285a0a828/skitch.png)
 
 ## Virtual Currency Protocol ##
 
