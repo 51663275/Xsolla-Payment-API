@@ -1,9 +1,9 @@
 ![](http://xsolla.com/img/xsolla-logo2.png)
 
-## Xsolla Payment API ##
+## XSOLLA Payment API ##
 
 ===
-
+XSOLLA is an international payment solution provider specializing in online game payments
 ## Please follow these easy steps: ##
 
 
@@ -21,6 +21,9 @@ In case you would like to customize it, here is the [template files](https://git
 
 #Credit cards form + PayBar#
 ![](https://www.evernote.com/shard/s132/sh/137a980a-d1bc-473c-a7dc-442b3d6566ce/3681fd65a158a3a86c42899d91e3cdf6/res/032a8fef-d9dc-447c-b94f-f29285a0a828/skitch.png)
+
+#Mobile Paystation#
+![](https://www.evernote.com/shard/s132/sh/3016cdae-965b-4530-a23b-30163c07151b/b8bf1924cd1c4f2a96e6dfa02e47375f/res/4b64daeb-26af-4282-bee4-f077c229aa2a/skitch.png)
 
 ## Virtual Currency Protocol ##
 
