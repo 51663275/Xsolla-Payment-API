@@ -3,7 +3,8 @@
 ## XSOLLA Payment API ##
 
 ===
-XSOLLA is an international payment solution provider specializing in online game payments
+XSOLLA is an international payment solution provider specializing in online game payments.
+See our profile: http://xsolla.com/xsolla_profile.pdf
 ## Please follow these easy steps: ##
 
 
